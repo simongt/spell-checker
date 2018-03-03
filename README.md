@@ -1,6 +1,6 @@
 # Exercises
 
-Implement a spellchecker. 
+Implement the `findMisspelledWords` function which you might use for a spellchecker.
 
 Skills required:
 - Splitting a string into an array
