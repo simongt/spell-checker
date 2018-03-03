@@ -5,6 +5,7 @@ Implement a spellchecker.
 Skills required:
 - Splitting a string into an array
 - Iterating over an array
+- Lowercasing a string
 - Checking if an array contains an item
 - Finding the index of a substring
 
@@ -15,5 +16,20 @@ const dictionary = ["it", "was", "the", "best", "worst", "of", "times"];
 // You can expect text to only have alphabetical characters, commas, spaces, and periods.
 // @returns {Array} Indexes of misspelled words in the provided string.
 function findMisspelledWords(text) {}
+
+var findMisspelledWords
+
+var misspellings = findMisspelledWords(
+  "It was the best of times, it was the worst of itmes."
+);
+
+console.log("Found misspellings: ");
+console.log(misspellings);
+
+if (misspellings[0] === 46 && misspellings.length === 1) {
+  console.log('👍');
+} else {
+  console.log('🤔');
+}
 ```
 
