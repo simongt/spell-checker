@@ -21,7 +21,7 @@ var misspellings = findMisspelledWords(
   "It was the best of times, it was the worst of itmes."
 );
 
-console.log("Found misspellings: ");
+console.log("Found misspellings at indexes: ");
 console.log(misspellings);
 
 if (misspellings[0] === 46 && misspellings.length === 1) {
