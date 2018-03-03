@@ -15,9 +15,7 @@ const dictionary = ["it", "was", "the", "best", "worst", "of", "times"];
 // Find misspelled words in the provided string.
 // You can expect text to only have alphabetical characters, commas, spaces, and periods.
 // @returns {Array} Indexes of misspelled words in the provided string.
-function findMisspelledWords(text) {}
-
-var findMisspelledWords
+const findMisspelledWords = (text) => {}
 
 var misspellings = findMisspelledWords(
   "It was the best of times, it was the worst of itmes."
