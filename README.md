@@ -1,5 +1,7 @@
 # Exercises
 
+## Misspellings
+
 Implement the `findMisspelledWords` function which you might use for a spellchecker.
 
 Skills required:
@@ -31,3 +33,23 @@ if (misspellings[0] === 46 && misspellings.length === 1) {
 }
 ```
 
+## Extracting object keys
+
+We get information from an API which comes back in a curious format about ingredients from a recipe.
+
+```js
+const apiData = {
+  name: "Yellow Curry Veggies",
+  ingredient1: "Zucchini",
+  ingredient2: "Onion",
+  ingredient3: "Potato",
+  ingredient4: "Coconut Milk",
+  ingredient5: "Yellow Curry Paste"
+};
+```
+
+Write a function that accepts an object as well as a string prefix that will extract the values for the keys starting with the prefix like so:
+
+```js
+const ingredients = extractKeyValues(apiData, 'ingredient');
+// ingredients = [ "Zucchini", "Onion", "Potato", "Coconut Milk", "Yellow Curry Paste" ]
