@@ -1,8 +1,6 @@
 # Exercises
 
-## Misspellings
-
-Implement the `findMisspelledWords` function which you might use for a spellchecker.
+## Basic spellcheck
 
 Skills required:
 - Splitting a string into an array
@@ -10,6 +8,8 @@ Skills required:
 - Lowercasing a string
 - Checking if an array contains an item
 - Finding the index of a substring
+
+Implement the `findMisspelledWords` function which you might use for a spellchecker.
 
 ```js
 const dictionary = ["it", "was", "the", "best", "worst", "of", "times"];
@@ -34,6 +34,10 @@ if (misspellings[0] === 46 && misspellings.length === 1) {
 ```
 
 ## Extracting object keys
+
+Skills required:
+- Iterating over an object
+- Checking for substrings 
 
 We get information from an API which comes back in a curious format about ingredients from a recipe.
 
