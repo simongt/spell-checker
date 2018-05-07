@@ -57,3 +57,14 @@ Write a function that accepts an object as well as a string prefix that will ext
 ```js
 const ingredients = extractKeyValues(apiData, 'ingredient');
 // ingredients = [ "Zucchini", "Onion", "Potato", "Coconut Milk", "Yellow Curry Paste" ]
+```
+
+## Convert a hexadecimal value to RGB
+
+Write a function `hexToRGB()` that accepts a hexadecimal string like `FF00FF` and returns an object containing the red, green, and blue values in decimal format.
+
+`000000` should return `{red: 0, green: 0, blue: 0}`
+
+`101010` should return `{red: 16, green: 16, blue: 16}`
+
+`FF00FF` should return `{red: 255, green: 0, blue: 255}`
