@@ -68,3 +68,9 @@ Write a function `hexToRGB()` that accepts a hexadecimal string like `FF00FF` an
 `101010` should return `{red: 16, green: 16, blue: 16}`
 
 `FF00FF` should return `{red: 255, green: 0, blue: 255}`
+
+## Decipher the code (needs work)
+
+There's some code like 'ehvnej' that deciphers into a real message.
+
+Write a function given the algorithm that deciphers the message.
