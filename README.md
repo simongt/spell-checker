@@ -74,3 +74,5 @@ Write a function `hexToRGB()` that accepts a hexadecimal string like `FF00FF` an
 There's some code like 'ehvnej' that deciphers into a real message.
 
 Write a function given the algorithm that deciphers the message.
+
+## [Subarray problem](https://web.stanford.edu/class/cs9/sample_probs/SubarraySums.pdf)
