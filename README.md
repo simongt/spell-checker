@@ -1,6 +1,23 @@
-# Exercises
+# Morning Warm-up ☕️🌞💻🤓 (September 14, 2018)
 
-## Basic spellcheck
+"Expect problems and eat them for breakfast." – Alfred A. Montapert
+
+<details>
+
+<summary>ALGORITHMS + WHITEBOARDING</summary>
+
+#### _So many algorithms and whiteboarding exercises! And they kinda seem random too. So what's the big idea?_
+
+As a developer, your job relies heavily on __analytical skills__. You have to be able to understand the issues at hand, think creatively, and come up with solid, stable solutions that meet the requirements and perform well. Taking the time to solve problems that aren’t in the domain of your ordinary routine and everyday tasks can stretch that brain muscle that’s so important for a developer to exercise.<br>
+
+See beyond the task, and try to have fun with it. Enjoy thinking through these challenges, and be curious about how things may be done differently. For example, observe the thought process in this [coding interview at Google](https://www.youtube.com/watch?v=XKu_SEDAykw), in which the interviewee takes time to ask many clarifying questions that explore all the conditions and assumptions being made before even beginning to attempt a solution.
+
+</details>
+
+# Simple Spellcheck
+> 
+> Adapted from @ericandrewlewis's "Basic Spellcheck" exercise
+> 
 
 Skills required:
 - Splitting a string into an array
