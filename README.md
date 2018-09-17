@@ -28,9 +28,9 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 - Checking if an array contains an item
 - Finding the index of a substring
 
-### <details>
+<details>
   
-  <summary>for...of loops</summary>
+  <summary>### for...of loops</summary>
   
   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
   
