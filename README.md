@@ -23,7 +23,15 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 
 ## Skills required:
 - Splitting a string into an array
-- Iterating over an array: <details><summary>for...of loops</summary> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of <br> ``` javascript ``` </details>
+- Iterating over an array: <details><summary>for...of loops</summary> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of <br> ``` let iterable = [10, 20, 30];
+
+for (let value of iterable) {
+  value += 1;
+  console.log(value);
+}
+// 11
+// 21
+// 31 ``` </details>
 - Lowercasing a string
 - Checking if an array contains an item
 - Finding the index of a substring
