@@ -1,4 +1,4 @@
-# Morning Warm-up ☕️🌞💻🤓 (September 14, 2018)
+# Morning Warm-up ☕️🌞💻🤓 (September 18, 2018)
 
 "Expect problems and eat them for breakfast." – Alfred A. Montapert
 
@@ -14,7 +14,7 @@ See beyond the task, and try to have fun with it. Enjoy thinking through these c
 
 </details>
 
-# Simple Spellcheck
+# Simple Spell-Checker
 > 
 > Adapted from @ericandrewlewis's "Basic Spellcheck" exercise
 > 
