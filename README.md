@@ -30,8 +30,10 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 
 <details>
   <summary>for...of loops</summary>
-  (for...of | MDN)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of]
+  [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+  
   ```javascript
+  
   let iterable = [10, 20, 30];
   for (let value of iterable) {
   value += 1;
@@ -40,7 +42,9 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
   // 11
   // 21
   // 31
+  
   ```
+  
 </details>
 
 Implement the `findMisspelledWords` function which you might use for a spellchecker.
