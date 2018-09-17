@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 
 <details>
   
-  ### <summary>for...of loops</summary>
+  <summary>for...of loops</summary>
   
   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
   
