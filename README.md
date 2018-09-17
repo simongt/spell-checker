@@ -12,6 +12,8 @@ As a developer, your job relies heavily on __analytical skills__. You have to be
 
 See beyond the task, and try to have fun with it. Enjoy thinking through these challenges, and be curious about how things may be done differently. For example, observe the thought process in this [coding interview at Google](https://www.youtube.com/watch?v=XKu_SEDAykw), in which the interviewee takes time to ask many clarifying questions that explore all the conditions and assumptions being made before even beginning to attempt a solution.
 
+https://www.youtube.com/watch?v=XKu_SEDAykw
+
 </details>
 
 # Simple Spell-Checker
