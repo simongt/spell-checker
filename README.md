@@ -16,14 +16,15 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 
 </details>
 
-# Simple Spell-Checker
+# Simple Spell-Checker 🔎🔤
 > 
 > Adapted from @ericandrewlewis's "Basic Spellcheck" exercise
 > 
 
-Skills required:
+## Skills required:
 - Splitting a string into an array
-- Iterating over an array
+- Iterating over an array: (for...of)
+- <details><summary>for...of loops</summary>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of</details>
 - Lowercasing a string
 - Checking if an array contains an item
 - Finding the index of a substring
