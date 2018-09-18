@@ -33,10 +33,6 @@ getFileData()
     dictionary = data.split("\n");
   })
   .then(() => {
-    console.log(wordIsSpelledCorrectly("best"));
-    console.log(wordIsSpelledCorrectly("besto"));
-  })
-  .then(() => {
     console.log(
       sentenceContainsMisspelledWord(
         "It was the best of times it was the worst of itmes"
