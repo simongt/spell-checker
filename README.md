@@ -51,7 +51,7 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
   
   ```
   
-</details>
+</details><br>
 
 Implement the `findMisspelledWords` function which you might use for a spellchecker.
 
