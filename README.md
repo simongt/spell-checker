@@ -18,87 +18,122 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 
 # Simple Spell-Checker 🔎🔤
 > 
-> Adapted from @ericandrewlewis's "Basic Spellcheck" exercise
-> 
+> Adapted from @ericandrewlewis's ["Basic Spellcheck"](https://github.com/ericandrewlewis/exercises#basic-spellcheck) exercise
+>
+
+Implement the functions for `wordIsSpelledCorrectly` and `sentenceContainsMisspelledWord` which might be useful for a spellchecker.
+
+```javascript
+// Note the partial dictionary. See spell-checker-full-dictionary.js for exercise with full dictionary.
+const dictionary = ["it", "was", "the", "best", "worst", "of", "times"];
+
+// Check if word belongs to dictionary (case-insensitive).
+const wordIsSpelledCorrectly = word => {
+
+  // TO-DO
+  
+};
+
+// Check if sentence contains a mis-spelled word (case-insensitive).
+const sentenceContainsMisspelledWord = sentence => {
+
+  // TO-DO
+
+};
+
+console.log(
+  sentenceContainsMisspelledWord(
+    "It was the best of times it was the worst of itmes"
+  )
+);
+
+console.log(
+  sentenceContainsMisspelledWord(
+    "It was the best of times it was the worst of times"
+  )
+);
+
+```
 
 ## Skills required:
 - Splitting a string into an array
-- Iterating over an array: <details><summary>for...of loops</summary>
-  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+- Lowercasing a string
+- Checking if an array contains an item
+- Iterating over an array (`for...of` loop, [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of))
+
+<details>
+  
+  <summary>Simple, straight-forward for...of loop example</summary>
+  
+  ```javascript
+  
+  const myFavoriteAuthors = [
+    'Neal Stephenson',
+    'Arthur Clarke',
+    'Isaac Asimov', 
+    'Robert Heinlein'
+  ];
+  
+  for (const author of myFavoriteAuthors) {
+    console.log(author);
+  }
+  
+  // OUTPUT:
+  // Neal Stephenson
+  // Arthur Clarke
+  // Isaac Asimov
+  // Robert Heinlein
+  
+  ```
+  
+</details><br>
+
+---
+
+<details>
+
+<summary>STARTER CODE (WITH HINTS)</summary>
 
 ``` javascript
+
+// Note the partial dictionary. See spell-checker-full-dictionary.js for exercise with full dictionary.
+const dictionary = ["it", "was", "the", "best", "worst", "of", "times"];
+
+// Check if word belongs to dictionary (case-insensitive).
+const wordIsSpelledCorrectly = word => {
+  // TO-DO
+  // returns true if the dictionary array includes the given word
+};
+
+// Check if sentence contains a mis-spelled word (case-insensitive).
+const sentenceContainsMisspelledWord = sentence => {
+  // TO-DO
+  // convert to lower-case
+  // split by spaces
+  // iterate through sentence to check if each word is spelled correctly
+  // returns true if a mis-spelled word is found
+};
+
+console.log(
+  sentenceContainsMisspelledWord(
+    "It was the best of times it was the worst of itmes"
+  )
+);
+
+console.log(
+  sentenceContainsMisspelledWord(
+    "It was the best of times it was the worst of times"
+  )
+);
 
 ```
 
 </details>
-- Lowercasing a string
-- Checking if an array contains an item
-- Finding the index of a substring
 
-Implement the `findMisspelledWords` function which you might use for a spellchecker.
+<details>
 
-```js
-const dictionary = ["it", "was", "the", "best", "worst", "of", "times"];
+<summary>SOLUTION</summary>
 
-// Find misspelled words in the provided string.
-// You can expect text to only have alphabetical characters, commas, spaces, and periods.
-// @returns {Array} Indexes of misspelled words in the provided string.
-const findMisspelledWords = (text) => {}
+🔐
 
-var misspellings = findMisspelledWords(
-  "It was the best of times, it was the worst of itmes."
-);
-
-console.log("Found misspellings at indexes: ");
-console.log(misspellings);
-
-if (misspellings[0] === 46 && misspellings.length === 1) {
-  console.log('👍');
-} else {
-  console.log('🤔');
-}
-```
-
-## Extracting object keys
-
-Skills required:
-- Iterating over an object
-- Checking for substrings 
-
-We get information from an API which comes back in a curious format about ingredients from a recipe.
-
-```js
-const apiData = {
-  name: "Yellow Curry Veggies",
-  ingredient1: "Zucchini",
-  ingredient2: "Onion",
-  ingredient3: "Potato",
-  ingredient4: "Coconut Milk",
-  ingredient5: "Yellow Curry Paste"
-};
-```
-
-Write a function that accepts an object as well as a string prefix that will extract the values for the keys starting with the prefix like so:
-
-```js
-const ingredients = extractKeyValues(apiData, 'ingredient');
-// ingredients = [ "Zucchini", "Onion", "Potato", "Coconut Milk", "Yellow Curry Paste" ]
-```
-
-## Convert a hexadecimal value to RGB
-
-Write a function `hexToRGB()` that accepts a hexadecimal string like `FF00FF` and returns an object containing the red, green, and blue values in decimal format.
-
-`000000` should return `{red: 0, green: 0, blue: 0}`
-
-`101010` should return `{red: 16, green: 16, blue: 16}`
-
-`FF00FF` should return `{red: 255, green: 0, blue: 255}`
-
-## Decipher the code (needs work)
-
-There's some code like 'ehvnej' that deciphers into a real message.
-
-Write a function given the algorithm that deciphers the message.
-
-## [Subarray problem](https://web.stanford.edu/class/cs9/sample_probs/SubarraySums.pdf)
+</details>
