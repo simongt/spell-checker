@@ -134,6 +134,39 @@ console.log(
 
 <summary>SOLUTION</summary>
 
-🔐
+``` javascript
+
+// note that dictionary contains all lower-case words
+const dictionary = ["it", "was", "the", "best", "worst", "of", "times"];
+
+// part 1, check if word belongs to dictionary (case-insensitive)
+const wordIsSpelledCorrectly = word => {
+  return dictionary.includes(word);
+};
+
+// part 2, check if sentence contains a mis-spelled word (case-insensitive)
+const sentenceContainsMisspelledWord = sentence => {
+  const words = sentence.toLowerCase().split(" ");
+  for (let word of words) {
+    if (!wordIsSpelledCorrectly(word)) {
+      return true;
+    }
+  }
+  return false;
+};
+console.log(
+  sentenceContainsMisspelledWord(
+    "It was the best of times it was the worst of itmes"
+  )
+);
+
+console.log(
+  sentenceContainsMisspelledWord(
+    "It was the best of times it was the worst of times"
+  )
+);
+
+
+```
 
 </details>
