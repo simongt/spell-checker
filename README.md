@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 
 <details>
   
-  <summary>Example simple, straight-forward `for...of` loop</summary>
+  <summary>Simple, straight-forward for...of loop example</summary>
   
   ```javascript
   
