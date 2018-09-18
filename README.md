@@ -34,12 +34,19 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
   
   ```javascript
   
-  let words = ['hello', 'world'];
+  const myFavouriteAuthors = [
+    'Neal Stephenson',
+    'Arthur Clarke',
+    'Isaac Asimov', 
+    'Robert Heinlein'
+  ];
   for (let word of words) {
     console.log(word);
   }
-  // hello
-  // world
+  // Neal Stephenson
+  // Arthur Clarke
+  // Isaac Asimov
+  // Robert Heinlein
   
   ```
   
