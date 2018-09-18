@@ -30,20 +30,18 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 
 <details>
   
-  <summary>for...of loops</summary>
+  <summary>Example for...of loop</summary>
   
   [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
   
   ```javascript
   
-  let iterable = [10, 20, 30];
-  for (let value of iterable) {
-  value += 1;
-  console.log(value);
+  let words = ['hello', 'world'];
+  for (let word of words) {
+    console.log(word);
   }
-  // 11
-  // 21
-  // 31
+  // hello
+  // world
   
   ```
   
