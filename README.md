@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 
 <details>
   
-  <summary>Example for...of loop</summary>
+  <summary>Example simple, straight-forward `for...of` loop</summary>
   
   ```javascript
   
@@ -41,7 +41,7 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
     'Robert Heinlein'
   ];
   for (const author of myFavoriteAuthors) {
-    console.log(word);
+    console.log(author);
   }
   // OUTPUT:
   // Neal Stephenson
