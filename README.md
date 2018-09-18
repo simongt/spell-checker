@@ -19,39 +19,7 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 # Simple Spell-Checker 🔎🔤
 > 
 > Adapted from @ericandrewlewis's ["Basic Spellcheck"](https://github.com/ericandrewlewis/exercises#basic-spellcheck) exercise
-> 
-
-## Skills required:
-- Splitting a string into an array
-- Iterating over an array (`for...in` loop, [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of))
-- Lowercasing a string
-- Checking if an array contains an item
-- Finding the index of a substring
-
-<details>
-  
-  <summary>Simple, straight-forward for...of loop example</summary>
-  
-  ```javascript
-  
-  const myFavoriteAuthors = [
-    'Neal Stephenson',
-    'Arthur Clarke',
-    'Isaac Asimov', 
-    'Robert Heinlein'
-  ];
-  for (const author of myFavoriteAuthors) {
-    console.log(author);
-  }
-  // OUTPUT:
-  // Neal Stephenson
-  // Arthur Clarke
-  // Isaac Asimov
-  // Robert Heinlein
-  
-  ```
-  
-</details><br>
+>
 
 Implement the functions for `wordIsSpelledCorrectly` and `sentenceContainsMisspelledWord` which might be useful for a spellchecker.
 
@@ -86,3 +54,35 @@ console.log(
 );
 
 ```
+
+## Skills required:
+- Splitting a string into an array
+- Iterating over an array (`for...in` loop, [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of))
+- Lowercasing a string
+- Checking if an array contains an item
+- Finding the index of a substring
+
+<details>
+  
+  <summary>Simple, straight-forward for...of loop example</summary>
+  
+  ```javascript
+  
+  const myFavoriteAuthors = [
+    'Neal Stephenson',
+    'Arthur Clarke',
+    'Isaac Asimov', 
+    'Robert Heinlein'
+  ];
+  for (const author of myFavoriteAuthors) {
+    console.log(author);
+  }
+  // OUTPUT:
+  // Neal Stephenson
+  // Arthur Clarke
+  // Isaac Asimov
+  // Robert Heinlein
+  
+  ```
+  
+</details><br>
