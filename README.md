@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
 
 # Simple Spell-Checker 🔎🔤
 > 
-> Adapted from @ericandrewlewis's ["Basic Spellcheck"](https://github.com/ericandrewlewis/exercises) exercise
+> Adapted from @ericandrewlewis's ["Basic Spellcheck"](https://github.com/ericandrewlewis/exercises#basic-spellcheck) exercise
 > 
 
 ## Skills required:
