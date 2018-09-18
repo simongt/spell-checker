@@ -34,15 +34,16 @@ https://www.youtube.com/watch?v=XKu_SEDAykw
   
   ```javascript
   
-  const myFavouriteAuthors = [
+  const myFavoriteAuthors = [
     'Neal Stephenson',
     'Arthur Clarke',
     'Isaac Asimov', 
     'Robert Heinlein'
   ];
-  for (let word of words) {
+  for (const author of myFavoriteAuthors) {
     console.log(word);
   }
+  // OUTPUT:
   // Neal Stephenson
   // Arthur Clarke
   // Isaac Asimov
