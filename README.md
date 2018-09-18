@@ -74,9 +74,11 @@ console.log(
     'Isaac Asimov', 
     'Robert Heinlein'
   ];
+  
   for (const author of myFavoriteAuthors) {
     console.log(author);
   }
+  
   // OUTPUT:
   // Neal Stephenson
   // Arthur Clarke
